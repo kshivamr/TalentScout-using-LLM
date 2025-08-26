@@ -1,0 +1,92 @@
+Here is a README file template for your TalentScout AI/ML Hiring Assistant chatbot built with Streamlit and OpenAI:
+
+```markdown
+# TalentScout AI/ML Hiring Assistant Chatbot
+
+## Project Overview
+This project is an intelligent Hiring Assistant chatbot designed for "TalentScout," a fictional recruitment agency specializing in technology placements. The chatbot assists in the initial screening of candidates by collecting essential information and generating relevant technical questions based on the candidate's specified tech stack.
+
+The chatbot is built using Streamlit for the frontend interface and OpenAI GPT-3.5 for generating technical questions dynamically. It demonstrates prompt engineering, session state management, and conversational flow control using Streamlit.
+
+## Features
+- Gathers candidate details: name, email, phone, experience, desired position, location, and tech stack.
+- Generates 3-5 relevant technical interview questions tailored to the candidate's tech stack and experience.
+- Maintains conversational context and flow through Streamlit session state.
+- Provides a seamless, intuitive user interface.
+- Gracefully handles conversation-ending keywords and ends the conversation smoothly.
+  
+## Installation Instructions
+
+1. Clone the repository:
+   ```
+   git clone <your-repo-url>
+   cd <your-repo-folder>
+   ```
+
+2. Create and activate a Python virtual environment (recommended):
+   ```
+   python -m venv venv
+   # Windows
+   .\venv\Scripts\activate
+   # macOS/Linux
+   source venv/bin/activate
+   ```
+
+3. Install the required packages:
+   ```
+   pip install -r requirements.txt
+   ```
+
+4. Obtain an OpenAI API key from [OpenAI](https://platform.openai.com/account/api-keys).
+
+5. Run the Streamlit app:
+   ```
+   streamlit run main.py
+   ```
+
+## Usage Guide
+- Upon starting, the chatbot greets the candidate and requests details sequentially.
+- Candidates input their tech stack, triggering the bot to generate tailored technical questions.
+- Candidates answer technical questions in the interface.
+- The session ends with a thank you message and instructions on the next steps.
+
+## Technical Details
+- **Frontend:** Streamlit for quick and interactive UI development.
+- **Backend:** OpenAI GPT-3.5 API for prompt-driven question generation.
+- **State Management:** Streamlit session state is used to manage conversational flow and store data.
+- **Prompt Engineering:** Designed specific prompts to collect candidate info and generate relevant technical questions according to the provided tech stack.
+
+## Prompt Design
+Prompts are crafted to:
+- Gather precise candidate information.
+- Generate concise, relevant technical questions tailored by declared technology and experience.
+- Maintain context for follow-up interactions.
+
+## Challenges & Solutions
+- Managing session state without deprecated Streamlit rerun functions; solved by using per-widget keys and buttons.
+- Designing clear prompts to generate meaningful, targeted technical questions.
+- Ensuring smooth navigation and handling of conversation-ending keywords for graceful exits.
+
+## License
+This project is licensed under the MIT License.
+
+---
+
+## Contact
+For questions or contributions, contact [Your Name or Email].
+
+```
+
+This README covers project overview, usage, installation, technical details, and more, suitable for your TalentScout chatbot submission.
+
+Let me know if you want me to include `requirements.txt` content or deployment instructions!
+
+[1](https://github.com/MarcSkovMadsen/awesome-streamlit/blob/master/README.md)
+[2](https://docs.streamlit.io/deploy/streamlit-community-cloud/get-started/deploy-from-a-template)
+[3](https://blog.streamlit.io/streamlit-app-starter-kit-how-to-build-apps-faster/)
+[4](https://www.youtube.com/watch?v=AiIptnSahMs)
+[5](https://www.youtube.com/watch?v=3XFdq9RDz6A)
+[6](https://docs.streamlit.io/deploy/streamlit-community-cloud/get-started/quickstart)
+[7](https://huggingface.co/spaces/templates/streamlit/blame/main/README.md)
+[8](https://docs.streamlit.io)
+[9](https://huggingface.co/spaces/streamlit/streamlit-template-space/blob/refs%2Fpr%2F2/README.md)
