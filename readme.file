@@ -19,8 +19,8 @@ The chatbot is built using Streamlit for the frontend interface and OpenAI GPT-3
 
 1. Clone the repository:
    ```
-   git clone <your-repo-url>
-   cd <your-repo-folder>
+   git clone <https://github.com/kshivamr/TalentScout-using-LLM>
+   cd <https://github.com/kshivamr/TalentScout-using-LLM>
    ```
 
 2. Create and activate a Python virtual environment (recommended):
@@ -73,7 +73,7 @@ This project is licensed under the MIT License.
 ---
 
 ## Contact
-For questions or contributions, contact [Your Name or Email].
+For questions or contributions, contact [123shivamrkumar@gmail.com].
 
 ```
 
